@@ -1,0 +1,15 @@
+.about_main {
+  color: var(--text-color);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.item_list{
+  margin-left: 40px;
+  margin-top: 10px;
+}
