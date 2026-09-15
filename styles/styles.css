@@ -18,6 +18,7 @@
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-variation-settings: "wdth" 100;
+  line-height: 1.6;
 }
 body {
   padding: 0 2vw;
@@ -58,6 +59,18 @@ a {
   color: var(--primary-color);
 }
 /* TEXT STYLING END */
+
+/* Items Style */
+.contact_info_item a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contact_info_item a:hover {
+  color: var(--accent-color);
+}
+/* Items Style END */
 
 /* BUTTON STYLING */
 .btn_shape {

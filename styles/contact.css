@@ -19,16 +19,6 @@
   margin-left: 40px;
 }
 
-.contact_info_item a {
-  color: #000;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.contact_info_item a:hover {
-  color: var(--accent-color);
-}
-
 .contact_inline_info_item a {
   color: #000;
   cursor: pointer;
