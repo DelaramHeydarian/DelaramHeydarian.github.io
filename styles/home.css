@@ -3,9 +3,10 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  height: 50vh;
+  height: 100%;
   gap: 30px;
 }
+
 .intro_text {
   color: var(--text-color);
   height: 100%;
@@ -14,6 +15,17 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.intro_profile_sec {
+  color: var(--text-color);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .profile_img {
   width: 350px;
   min-width: 350px;
@@ -23,6 +35,13 @@
   border-radius: 10%;
   border: 3px solid var(--border-color);
 }
+
+.uni_logo {
+  width: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+
 #my_job_title {
   color: var(--primary-color);
 }
@@ -31,15 +50,30 @@
   .intro {
     align-items: start;
     justify-content: space-between;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
     height: 80vh;
     margin-top: 7vh;
+    align-items: center;
   }
+
+  .intro_profile_sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
   .profile_img {
     min-width: 150px;
     width: 150px;
     height: 150px;
+  }
+
+  .uni_logo {
+    width: 150px;
   }
 }
 
@@ -48,5 +82,9 @@
     width: 250px;
     min-width: 250px;
     height: 250px;
+  }
+
+  .uni_logo {
+    width: 250px;
   }
 }
