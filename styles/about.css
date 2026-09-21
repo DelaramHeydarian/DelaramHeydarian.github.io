@@ -6,10 +6,18 @@
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap:10px;
+  gap: 10px;
 }
 
-.item_list{
+.awards_content {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.item_list {
   margin-left: 40px;
   margin-top: 10px;
 }
