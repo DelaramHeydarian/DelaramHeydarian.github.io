@@ -36,6 +36,10 @@ main {
 a {
   text-decoration: none;
 }
+h3,h4,p{
+  margin-bottom: 10px;
+}
+
 #title_text {
   padding: 20px 10px;
   color: var(--text-color);
