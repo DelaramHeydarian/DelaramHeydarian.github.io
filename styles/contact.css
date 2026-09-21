@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap:20px;
+  gap: 20px;
   color: var(--text-color);
 }
 
@@ -25,7 +25,7 @@
   text-decoration: underline;
 }
 
-.contact_inline_info_item a:hover{
+.contact_inline_info_item a:hover {
   color: var(--accent-color);
 }
 
