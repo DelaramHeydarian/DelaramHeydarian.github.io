@@ -44,6 +44,14 @@
   object-position: top;
 }
 
+.li_content {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+
 #my_job_title {
   color: var(--primary-color);
 }
